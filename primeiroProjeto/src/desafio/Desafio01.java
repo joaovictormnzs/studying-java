@@ -9,7 +9,6 @@ public class Desafio01 {
         String tipoConta = "Corrente";
         double saldo = 1000.00;
 
-
         System.out.println("**********************************");
         System.out.println("\nNome do cliente: " + nome);
         System.out.println("Tipo de Conta: "+ tipoConta);
