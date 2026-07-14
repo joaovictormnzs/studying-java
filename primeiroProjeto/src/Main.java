@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Esse é o Screen Match");
-        System.out.println("Filme: Questão de tempo");
+        System.out.println("br.com.alura.screenmatch.models.Filme: Questão de tempo");
 
         int anoDeLancamento = 2013;
         System.out.println("Ano do lançamento: " + anoDeLancamento);

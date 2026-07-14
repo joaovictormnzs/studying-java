@@ -12,7 +12,7 @@ public class Condicionais {
         }
 
         if (incluidoNoPlano == true && tipoPlano.equals("plus")) {
-            System.out.println("Filme Liberado!");
+            System.out.println("br.com.alura.screenmatch.models.Filme Liberado!");
         }else{
             System.out.println("Deve pagar a locaçao");
         }
