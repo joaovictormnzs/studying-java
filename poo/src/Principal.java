@@ -1,4 +1,6 @@
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
+import br.com.alura.screenmatch.models.Episodio;
 import br.com.alura.screenmatch.models.Filme;
 import br.com.alura.screenmatch.models.Serie;
 
@@ -32,6 +34,19 @@ public class Principal {
         calculadora.inclui(questaoDeTempo);
         calculadora.inclui(supernatural);
         System.out.println(calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+
+        filtro.filtra(onePiece);
+
+        Episodio episodio = new Episodio();
+
+        episodio.setNumero(1);
+        episodio.setSerie(supernatural);
+        episodio.setTotalVisualizacoes(300);
+
+        filtro.filtra(episodio);
+
 
 
     }

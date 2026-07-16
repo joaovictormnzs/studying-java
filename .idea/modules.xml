@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AluraJava.iml" filepath="$PROJECT_DIR$/AluraJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO/POO.iml" filepath="$PROJECT_DIR$/POO/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafios.iml" filepath="$PROJECT_DIR$/desafios/desafios.iml" />
     </modules>
   </component>
 </project>
