@@ -6,6 +6,14 @@ public class Serie extends Titulo{
     private boolean ativa;
     private int minutosPorEpisodio;
 
+
+    //construtor
+    public Serie(String nome, int anoDelancamento) {
+        super(nome, anoDelancamento);
+    }
+
+    // getters e setters
+
     public int getTemporadas() {
         return temporadas;
     }

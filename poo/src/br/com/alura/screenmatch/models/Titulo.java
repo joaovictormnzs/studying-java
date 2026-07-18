@@ -8,6 +8,14 @@ public class Titulo {
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
+    //CONSTRUTOR
+
+    public Titulo(String nome, int anoDelancamento) {
+        this.nome = nome;
+        this.anoDelancamento = anoDelancamento;
+    }
+
+
     //GETTERS
 
     public int getTotalDeAvaliacoes(){
@@ -51,7 +59,7 @@ public class Titulo {
     // Criacao de metodos.
 
     public void exibeFichaTecnica(){
-        System.out.println("Titulo: " + nome);
+        System.out.println("\nTitulo: " + nome);
         System.out.println("Ano de lancamento: " +anoDelancamento);
     }
 
