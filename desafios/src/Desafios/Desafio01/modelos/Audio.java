@@ -1,4 +1,4 @@
-package Desafios.Desafio01.Desafios01.modelos;
+package Desafios.Desafio01.modelos;
 
 public abstract class Audio {
     private String titulo;

@@ -1,8 +1,8 @@
-package Desafios.Desafio01.Desafios01.Principal;
+package Desafios.Desafio01.Principal;
 
-import Desafios.Desafio01.Desafios01.modelos.MinhasPreferidas;
-import Desafios.Desafio01.Desafios01.modelos.Musica;
-import Desafios.Desafio01.Desafios01.modelos.Podcast;
+import Desafios.Desafio01.modelos.MinhasPreferidas;
+import Desafios.Desafio01.modelos.Musica;
+import Desafios.Desafio01.modelos.Podcast;
 
 public class Principal {
     public static void main(String[] args) {
