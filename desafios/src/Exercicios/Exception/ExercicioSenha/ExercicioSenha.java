@@ -1,4 +1,4 @@
-package Exercicios.Excecao.ExercicioSenha;
+package Exercicios.Exception.ExercicioSenha;
 
 import java.util.Scanner;
 

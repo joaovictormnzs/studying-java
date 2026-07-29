@@ -1,4 +1,4 @@
-package Exercicios.Excecao.ExercicioDivisao;
+package Exercicios.Exception.ExercicioDivisao;
 
 import java.util.Scanner;
 
